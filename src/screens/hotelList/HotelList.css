@@ -1,0 +1,67 @@
+.hotel-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.hotel-list-search {
+  margin: 10px 0px;
+  width: 230px;
+  border-radius: 5px;
+  border: 0.5px solid #000;
+  height: 35px;
+  font-size: 15px;
+  padding: 0px 10px;
+}
+
+.hotlel-list-filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  margin: 10px 0px;
+}
+
+.hotel-list-filter, .hotel-list-filter-selected {
+  border: 1px solid #000;
+  border-radius: 16px;
+  padding: 6px 15px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.hotel-list-filter-selected {
+  background-color: lightgreen;
+}
+
+.hotel-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.hotel-list-item .hotel-img {
+  width: 250px;
+  border-radius: 10px;
+  padding: 5px 0px;
+}
+
+.hotel-list-item .hotel-title, .hotel-list-item .hotel-price {
+  font-weight: 600;
+  color: #1A1A1A;
+  padding: 5px 0px;
+}
+
+.hotel-list-item .hotel-price {
+  font-size: 18px;
+}
+
+.hotel-list-item .free-breakfast-tag {
+  font-weight: 500;
+  color: green;
+  padding: 5px 0px;
+}
