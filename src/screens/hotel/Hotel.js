@@ -1,11 +1,8 @@
-import { useCallback, useEffect, useState } from 'react';
-import HotelApi from '../../api/HotelApi';
-import { useDispatch, useSelector } from 'react-redux';
-import { setHotels } from '../../store/HotelSlice';
+import { useSelector } from 'react-redux';
 import { useParams } from 'react-router';
 
 function Hotel() {
-  const dispatch = useDispatch();
+
   
   const hotels = useSelector(state => state.hotel.hotels);
 
